@@ -1,0 +1,11 @@
+applications:
+  - name: clinical-trials-querying       # Name of your application
+    memory: 1G                            # Allocated memory for the app
+    disk_quota: 1G                        # Allocated disk space for the app
+    instances: 1                          # Number of application instances
+    buildpacks:
+      - python_buildpack                   # Buildpack used to deploy the application
+    command: python app.py                # Command to start the application
+    env:
+      AZURE_OPENAI_API_KEY: ''    
+      AZURE_OPENAI_ENDPOINT: ''  

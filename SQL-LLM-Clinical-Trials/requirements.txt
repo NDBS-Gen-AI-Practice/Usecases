@@ -1,0 +1,11 @@
+python-dotenv
+langchain
+pandas
+duckdb
+duckdb-engine
+langchain-openai
+langchain-core
+gradio
+langchain-community
+langchain-experimental
+sqlalchemy
