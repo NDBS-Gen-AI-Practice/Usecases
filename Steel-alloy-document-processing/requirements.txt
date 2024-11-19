@@ -1,0 +1,13 @@
+langchain
+langchain-core
+langchain-community
+langchain-experimental
+langchain_groq
+pandas
+azure-core
+azure-ai-formrecognizer
+streamlit
+pybase64
+pypdf
+markdown
+xhtml2pdf
